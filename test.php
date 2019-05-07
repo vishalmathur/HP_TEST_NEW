@@ -1,4 +1,3 @@
 
 echo "test"; print_r("test"); 
-echo "<pre>"; print_r($event);
-echo "<pre>"; print_r($event['requst']['payload']); die;
+echo "<pre>"; print_r($event); die;
